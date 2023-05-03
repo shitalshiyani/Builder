@@ -34,7 +34,7 @@ class HighSchool
 			cin>>stu_address;
 		}
 		
-		void getData()
+		static void getData()
 		{
 			cout<<"ID="<<id<<endl;
 			cout<<"Student Name="<<stu_name<<endl;
@@ -84,7 +84,7 @@ class College
 			cin>>stu_address;
 		}
 		
-		void getData_college()
+		static void getData_college()
 		{
 			cout<<"ID="<<id<<endl;
 			cout<<"Student Name="<<stu_name<<endl;
