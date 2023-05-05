@@ -46,8 +46,7 @@ class HighSchool
 			cout<<"Student Contact="<<stu_contact<<endl;
 			cout<<"Student Address="<<stu_address<<endl;
 			cout<<"................................................................"<<endl;
-		}
-		
+		}		
 };
 
 class College
@@ -90,7 +89,6 @@ class College
 		
 		 void getData_college()
 		{
-			
 			cout<<"College Name="<<College::stu_edu_college_name<<endl;
 			cout<<"ID="<<id<<endl;
 			cout<<"Student Name="<<stu_name<<endl;
@@ -108,10 +106,7 @@ main()
 {
 	HighSchool h;
 	College c;
-	
-	
-	
-	
+
 	h.setData();
 	h.getData();
 	
